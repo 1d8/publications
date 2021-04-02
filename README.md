@@ -6,4 +6,4 @@
 * CVE-2021-29012 - Broken session management
 
 
-![](/media/storedxss-manageradd-2021-03-20_00.38.33.mkv)
+![video](/media/storedxss-manageradd-2021-03-20_00.38.33.mkv)
