@@ -4,6 +4,8 @@ There have been many attacks in which attackers abuse legitimate web application
 
 This has been seen in pieces of malware which [abuse Dropbox's for command and control](https://www.theregister.com/2014/06/30/dropbox_used_as_command_and_control_in_taiwanese_govt_attack/) or [malware which abuses Discord for command and control of victims](https://securityaffairs.co/wordpress/109971/malware/abaddon-rat-discord-cc.html)
 
+There have also been instances in which legitimate web applications have been used for payload delivery such as in [this proof of concept that uses Spotify](https://kaganisildak.com/2021/01/14/using-spotify-playlists-as-malware-cdn-c2tify/)
+
 In this blog post, we'll be using the project manager Monday.com's API as a command and control server in order to interact with a victim computer. We will refer to our victim computer as a 'bot'. Interaction will include: 
 
 * sending commands to our bot
@@ -210,3 +212,4 @@ I plan to extend this post further in the future and improve this current Proof 
 * Creating custom groups within boards for specific purposes in order to better organize bots (for example, having a group specifically for bots to ping back to the Monday.com C&C server to ensure they are still infected and waiting for commands)
 
 * Exploring ways to bypass the current file upload restrictions instead of just using archive formats (example: 7zip, tar, zip, etc)
+
