@@ -5,7 +5,7 @@
 * ![CVE-2021-29011 - XSS](https://github.com/1d8/publications/tree/main/cve-2021-29011)
 * ![CVE-2021-29012 - Broken session management](https://github.com/1d8/publications/tree/main/cve-2021-29012)
 * ![CVE-2021-30147 - CSRF](https://github.com/1d8/publications/tree/main/cve-2021-30147)
-* ![Dmasoft XSS Cookie Stealer Exploit](https://github.com/1d8/publications)
+* ![Dmasoft XSS Cookie Stealer Exploit](https://github.com/1d8/publications/tree/main/dmasoft-exploit)
 
 
 # Malware Research
