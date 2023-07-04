@@ -16,6 +16,10 @@
 * [CVE-2022-0083 - Generation of Error Message Containing Sensitive Information](https://huntr.dev/bounties/4c477440-3b03-42eb-a6e2-a31b55090736/)
 * [CVE-2021-4177 - Generation of Error Message Containing Sensitive Information](https://huntr.dev/bounties/ac641425-1c64-4874-95e7-c7805c72074e/)
 
+# Exploits
+
+* [Mara CMS 7.5 Authenticated RCE](https://github.com/1d8/publications/blob/main/Mara-CMS-7.5-RCE/README.md)
+
 # Malware Research
 
 * [Using Monday.com's API for command & control](https://github.com/1d8/publications/tree/main/monday-cnc)
